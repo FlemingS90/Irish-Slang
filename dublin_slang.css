@@ -1,16 +1,39 @@
+#mynavbar {
+  margin:0;
+  background-color: rgba(32, 35, 41, 0.9);
+}
 
 body {
 
 	text-align: center;
 }
 
+
+
 #lastpart {
   background-color: rgba(32, 35, 41, 0.9);
   color: #ddd;
-  padding-bottom: 40px;
 }
+
+
+.row {
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.h-divider {
+  border-top:1px solid gray;
+}
+
+#creators {
+  padding-bottom: 7px;
+}
+
 #social-buttons {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .btn-twitter {
