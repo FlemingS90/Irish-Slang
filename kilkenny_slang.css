@@ -1,12 +1,39 @@
+#mynavbar {
+  margin:0;
+  background-color: rgba(32, 35, 41, 0.9);
+}
+
 body {
-	text-align: center;
+
+  text-align: center;
 }
-.carousel-inner img {
-  margin: auto;
-  width: 100%;
+
+
+
+#lastpart {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
 }
+
+
+.row {
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.h-divider {
+  border-top:1px solid gray;
+}
+
+#creators {
+  padding-bottom: 7px;
+}
+
 #social-buttons {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .btn-twitter {
@@ -25,4 +52,8 @@ body {
   background-color: #b62f26;
   border-color: #b62f26;
   color: white;
+}
+.carousel-inner img {
+  margin: auto;
+  width: 100%;
 }
